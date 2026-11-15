@@ -16,7 +16,7 @@ namespace Efcore1.Context
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer("Server=USERK\\SQLEXPRESS;Database=geo;Trusted_Connection=True;Trust Server Certificate=True; ");
+            optionsBuilder.UseSqlServer("Server=USERK\\SQLEXPRESS;Database=RouteLibrary;Trusted_Connection=True;Trust Server Certificate=True; ");
 
 
         }

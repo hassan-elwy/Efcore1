@@ -25,6 +25,6 @@ namespace Efcore1.Models
         //Navigation 
 
         public ICollection<Book> Books { get; set; } = new List<Book>();
-
+        //
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Efcore1.Models
 {
-    internal class Book
+    public class Book
     {
         public int BookID {  get; set; }
 
